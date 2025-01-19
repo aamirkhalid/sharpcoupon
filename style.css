@@ -1,0 +1,517 @@
+
+/* ===== sharpcoupon ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+
+}
+
+
+/* ===== Colours ===== */
+:root{
+    --body-color: #E4E9F7;
+    --nav-color: #4070F4;
+    --side-nav: #020272;
+    --text-color: #FFF;
+    --body-back: #F2F2F2;
+    --search-text: #010718;
+    --gard-nav:  #040494; 
+   
+   
+
+}
+
+
+body{
+   background: #f5f5f7;
+    height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-color{
+   background-color:var(--gard-nav);
+}
+
+.navbar-toggler{
+    padding: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+.navbar-toggler-icon {
+  border: none !important;
+    background-image: url(nav-icon.svg) !important;
+   
+}
+.nav-link:focus{
+    color:#EF0F0F;
+    
+}
+.like{
+    color: #FFF;
+ padding: 5px 0px 5px 20px;
+ cursor: pointer;
+}
+.like:focus{
+    color: #EF0F0F;
+}
+.top-text{
+    background-color:var(--side-nav);
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+padding-left: 5%;
+z-index: 1000;
+}
+.navbar{
+    padding: 2px;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    height:53px;
+    z-index: 1000;
+}
+.top-th{
+    color: white;
+    font-weight: 700;
+}
+.feed-back{
+    display: none;
+    color: #FFF;
+    padding-left:10px ;
+    font-size: 14px;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 2px;
+   margin-top: -50px;
+   text-transform: uppercase;
+   padding-left: 30px;
+   
+}
+.logo-coupon {
+    font-size: 20px;
+    text-align: start;
+    margin-left: -15px;
+    color: #FFF ;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-style: italic;
+    
+   
+}
+li{
+    font-size: 16px;
+    gap: 5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    color: #fdc500 !important;
+}
+.user{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5%;
+}
+.main-cnt{
+   margin: 100px 0 0 0 !important; 
+}
+.hading-main{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize; 
+    font-weight: 600; 
+    text-align: center; 
+    padding: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main-home-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.home-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home-card-dif{
+    display: flex;
+    flex-direction: column;
+}
+.imazon-logo{
+    max-width: 160px;
+}
+.save-text{
+    padding: 25px;
+    padding-top: 0;
+}
+.save-with{
+    font-size: 40px;
+    color: #020272;
+    font-weight:600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-card-with{
+    font-size: 18px;
+    color: #4040e9;
+    font-weight: 4600;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: italic;
+  margin-top: -10px;
+}
+.main-card-promo{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    color: #505155;
+    padding-top: 20px;
+}
+.title-amazon-text{
+    font-size: 24px;
+    color: #020272;
+    font-weight: 600;
+    padding: 10px;
+}
+.card-disct{
+    text-align: start;
+    padding: 0px 15px 0px 15px;
+    font-size: 16px;
+    color: #2a2b2c;
+    font-weight: 500;
+}
+.dtry{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.show-coupon{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width: 120px;
+  cursor: pointer;
+}
+.show-coupon:hover .oper-cord{
+    width: 143px;
+    background: #2e2edb;
+}
+.btuttom-copne{
+    border:dotted 3px #020272 ;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+}
+.oper-cord {
+    position: absolute;
+    width: 158px;
+    background: #4040e9;
+    padding: 5px;
+    left: -4px;
+    top: -4px;
+    height: 54px;
+    text-align: center;
+}
+.coupon-promo{
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 10px;
+}
+.copne-cod{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #010718;
+}
+.main-side{
+    display: flex;
+    flex-direction: column;
+}
+.side-cat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 2px 10px 2px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.categories-text{
+    font-size: 18px;
+    color: #010718;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    text-align: center;
+   
+}
+.accessories{
+    font-size: 18px;
+    color: #2f3031;
+    font-weight: 600;
+    text-transform: capitalize;
+  
+}
+.cat-img-sm{
+    max-width: 120px;
+    border: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.store-hading{
+    font-size: 36px;
+   font-weight: 700;
+   color: #232425;
+   text-align: center;
+   padding: 20px;
+}
+.stores-sc{
+    border: 2px dotted #020272;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+.store-name{
+    font-size: 18px;
+    color: #020272;
+    text-align: start;
+}
+.asq-qc{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.asked{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.faq-sc-hading{
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 1180px){
+    .imazon-logo {
+        max-width: 120px;
+    }
+    .save-with {
+        font-size: 28px;
+    }
+    .save-text {
+        padding: 8px;
+        padding-top: 0;
+    }
+    .title-amazon-text {
+        font-size: 18px;
+    }
+    .card-disct {
+        font-size: 13px;
+    }
+    .show-coupon {
+        width: 80px;
+       
+    }
+    .oper-cord {
+        width: 120px;
+        height: 46px;
+
+    }
+    .copne-cod {
+       
+        font-size: 18px;
+      
+    }
+    .coupon-promo {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .main-side {
+        flex-direction: row;
+    } 
+    .asq-qc{
+       padding: 20px 0 20px 0;
+    }
+}
+@media (max-width: 996px) {
+    .container.nav-color.mobile-yp {
+        display: flex;
+        width: 50%;
+        margin-right: 50%;
+       border-radius : 0px 30px 30px 0;
+        align-items: center;
+        margin-left: -2px;
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+    .widhtt{
+        width: 100% !important;
+        }
+        .logo{
+            
+           padding-left: 5px;
+           
+        }
+       
+    
+}
+
+@media (max-width: 790px) {
+    .logo {
+        
+        font-size: 36px;
+        margin-top: -24px;
+    }
+    .hading-main{
+        font-size: 18px;
+    }
+    
+    li{
+        font-size: 14px;
+       
+       
+    }
+    .order-fit{
+        order: 1;
+    }
+    .order-sace{
+        order: 3;
+    }
+    .order-my{
+        order: 2;
+    }
+    .dtry {
+        
+        padding-right:14px;
+    }
+    .order-fit {
+      
+        justify-content: space-between;
+    
+}
+.store-hading {
+    font-size: 24px;
+}
+.store-name {
+    font-size: 14px;
+   
+}
+.asked {
+    font-size: 24px;
+   
+}
+   }
+
+  
+@media (max-width: 576px){
+    .logo {
+        
+        font-size: 30px;
+        margin-top: -15px;
+    } 
+    svg {
+        vertical-align: middle;
+        width: 18px;
+    } 
+    .feed-back{
+
+        font-size: 12px;
+    }
+    .hading-main{
+        font-size: 16px;
+    }
+    .imazon-logo {
+        max-width: 70px;
+    }
+    .save-with {
+        font-size: 20px;
+    }
+    .save-text {
+        padding: 4px;
+        padding-top: 0;
+    }
+    .title-amazon-text {
+        font-size: 16px;
+    }
+    .card-disct {
+        font-size:12px;
+    }
+    .show-coupon {
+        width: 70px;
+       
+    }
+    .oper-cord {
+        width: 110px;
+        height: 44px;
+        
+
+    }
+    .dtry {
+        
+        padding-right: 6px;
+    }
+    .copne-cod {
+       
+        font-size: 16px;
+      
+    }
+    .coupon-promo {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .cat-img-sm {
+        max-width: 60px;
+    }
+    .accessories {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px){
+   
+}
+@media (max-width: 380px){
+   
+}
+
+
+
+
+
+
+
+
+/* =====singall ===== */
+a{
+    margin:0 ;
+    padding: 0 ;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.white{
+    color: white;
+ 
+}
+.kmas{
+    overflow-x: hidden;
+}
+
+.accordion-button:not(.collapsed){
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
