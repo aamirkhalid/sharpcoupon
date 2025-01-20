@@ -370,6 +370,8 @@ a:hover{
     font-size: 14px;
     color: #FFF;
 }
+
+/* ===== home page and ===== */
 @media (max-width: 1180px){
     .imazon-logo {
         max-width: 120px;
@@ -411,6 +413,7 @@ a:hover{
     .asq-qc{
        padding: 20px 0 20px 0;
     }
+    /* ===== home page and ===== */
 }
 @media (max-width: 996px) {
     .container.nav-color.mobile-yp {
@@ -442,7 +445,7 @@ a:hover{
             
         }
        
-    
+    /* ===== home page and ===== */
 }
 
 @media (max-width: 790px) {
@@ -507,6 +510,7 @@ a:hover{
     font-size: 24px;
   
 }
+/* ===== home page and ===== */
    }
 
   
@@ -578,6 +582,7 @@ a:hover{
         justify-content: center;
         align-items: center;
     }
+    /* ===== home page and ===== */
 }
 
 @media (max-width: 480px){
