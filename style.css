@@ -281,10 +281,23 @@ a:hover{
    align-items: center;
    
 }
+.stores-catr{
+    border: 2px dotted #1a89f1;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
 .store-name{
     font-size: 18px;
     color: #020272;
     text-align: start;
+}
+.store-name-cati{
+    font-size: 18px;
+    color: #2c2e30;
+    text-align: start;
+ 
 }
 .asq-qc{
     display: flex;
@@ -300,6 +313,62 @@ a:hover{
     font-size: 24px;
     text-align: center;
     padding: 10px;
+}
+.faq-card{
+    margin-top: 10px;
+    background: white;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.sharp-footer{
+    color: #F2F2F2;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+  border-bottom: 2px solid white;
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+}
+.kmas-footer{
+    background:var(--search-text);
+}
+.lightt{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.footer-link-hading{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    
+}
+.ligh-ds{
+    font-size: 14px;
+    color: #d4cdcd;
+}
+.ligh-ds:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.artivp{
+    font-size: 18px;
+}
+.artical-buttom{
+    display: flex;
+    align-items: center;
+  padding: 15px;
+    gap: 10px;
+    border:1px dotted black;
+}
+.artilpo{
+    margin-top: 50px;
+}
+.dis-footer{
+    font-size: 14px;
+    color: #FFF;
 }
 @media (max-width: 1180px){
     .imazon-logo {
@@ -362,6 +431,16 @@ a:hover{
            padding-left: 5px;
            
         }
+        .lightt{
+           
+            font-size: 30px;
+          
+        }
+        .footer-link-hading{
+            font-size: 18px;
+           
+            
+        }
        
     
 }
@@ -406,9 +485,27 @@ a:hover{
     font-size: 14px;
    
 }
+.store-name-cati{
+    font-size: 14px;
+   
+ 
+}
 .asked {
     font-size: 24px;
    
+}
+.faq-sc-hading{
+    font-size: 18px;
+   
+}
+.accordion-body {
+    font-size: 12px;
+    padding: 2px !important;
+}
+.lightt{
+           
+    font-size: 24px;
+  
 }
    }
 
@@ -475,6 +572,12 @@ a:hover{
     .accessories {
         font-size: 14px;
     }
+    .footer-four-four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 480px){
@@ -497,8 +600,10 @@ a{
     padding: 0 ;
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
    
 }
+
 .white{
     color: white;
  
