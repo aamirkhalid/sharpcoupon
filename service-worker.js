@@ -1,8 +1,8 @@
-const CACHE_NAME = 'sharpcoupon-pwa-v1';
+const CACHE_NAME = 'sharpcoupon-pwa-v2';
 const urlsToCache = [
-    '/',
-    '/defaults/images/icons/sharp-coupon-192x192.png',
-    '/defaults/images/icons/sharp-coupon-512x512.png',
+    './',
+    './defaults/images/icons/sharp-coupon-192x192.png',
+    './defaults/images/icons/sharp-coupon-512x512.png',
 ];
 
 self.addEventListener('install', (event) => {
@@ -20,3 +20,4 @@ self.addEventListener('fetch', (event) => {
         })
     );
 });
+
