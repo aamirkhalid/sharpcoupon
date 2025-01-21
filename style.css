@@ -49,7 +49,7 @@ body{
    
 }
 .nav-link:focus{
-    color:#EF0F0F;
+    color:#fdc500;
     
 }--text-color
 .like{
@@ -58,7 +58,7 @@ body{
  cursor: pointer;
 }
 .like:focus{
-    color: #EF0F0F;
+    color:#fdc500;
 }
 .top-text{
     background-color:var(--nav-color);
@@ -110,7 +110,7 @@ li{
     font-family: 'Poppins', sans-serif;
 }
 a:hover{
-    color: #fdc500 !important;
+    color:var(--nav-color);
 }
 .user {
     display: flex;
