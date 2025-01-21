@@ -1,6 +1,6 @@
 const CACHE_NAME = 'sharpcoupon-pwa-v2';
 const urlsToCache = [
-    './',
+    './sharpcoupon',
     './defaults/images/icons/sharp-coupon-192x192.png',
     './defaults/images/icons/sharp-coupon-512x512.png',
 ];

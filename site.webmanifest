@@ -4,7 +4,7 @@
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#99582a",
+    "theme_color": "#4483CE",
     "icons": [
         {
             "src": "defaults/images/icons/sharp-coupon-192x192.png",
