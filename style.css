@@ -13,15 +13,16 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #4070F4;
-    --side-nav: #020272;
-    --text-color: #FFF;
+    --nav-color: #107FB6;
+    --back-body: #D9D9D9;
+    --text-color: #DADADA;
     --body-back: #F2F2F2;
     --search-text: #010718;
-    --gard-nav:  #040494; 
-   
-   
-
+    --gard-nav:  #FEFDFF; 
+    --hading-all:  #575757; 
+    --antick:  #4483CE;
+    --card:  #5B1C01;
+    
 }
 
 
@@ -33,7 +34,7 @@ body{
 }
 
 .nav-color{
-   background-color:var(--gard-nav);
+   background-color:#f5f5f7;
 }
 
 .navbar-toggler{
@@ -41,6 +42,7 @@ body{
     box-shadow: none !important;
     border: none !important;
 }
+
 .navbar-toggler-icon {
   border: none !important;
     background-image: url(nav-icon.svg) !important;
@@ -49,9 +51,9 @@ body{
 .nav-link:focus{
     color:#EF0F0F;
     
-}
+}--text-color
 .like{
-    color: #FFF;
+    color:var(--text-color);
  padding: 5px 0px 5px 20px;
  cursor: pointer;
 }
@@ -59,7 +61,7 @@ body{
     color: #EF0F0F;
 }
 .top-text{
-    background-color:var(--side-nav);
+    background-color:var(--nav-color);
     padding: 2px;
     position: fixed;
     top: 0;
@@ -88,24 +90,18 @@ z-index: 1000;
 }
 .logo{
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 42px;
-    letter-spacing: 2px;
-   margin-top: -50px;
-   text-transform: uppercase;
-   padding-left: 30px;
+    font-weight: 700;
+    font-size:36px;
+   text-transform:capitalize;
+   padding-left: 10px;
+   color:var(--hading-all);
    
 }
-.logo-coupon {
+.coupon{
+    color: #1a89f1;
     font-size: 20px;
-    text-align: start;
-    margin-left: -15px;
-    color: #FFF ;
-    font-weight: 700;
-    letter-spacing: 0;
     font-style: italic;
-    
-   
+    margin-left: -10px;
 }
 li{
     font-size: 16px;
@@ -116,13 +112,24 @@ li{
 a:hover{
     color: #fdc500 !important;
 }
-.user{
+.user {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-left: 5%;
+    background:#fdc500 ;
+    margin-left: 25px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    float: right;
+    font-size: 16px;
+    font-weight: 900;
+   text-transform: capitalize;
+   cursor: pointer;
+   
 }
 .main-cnt{
    margin: 100px 0 0 0 !important; 
+   background-color:var(--back-body);
 }
 .hading-main{
     font-family: 'Poppins', sans-serif;
@@ -135,10 +142,12 @@ a:hover{
     display: -webkit-box;
     -webkit-line-clamp:3;
     -webkit-box-orient: vertical;
+    color:var(--hading-all);
 }
 .main-home-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .home-card{
     display: flex;
     justify-content: flex-start;
@@ -157,14 +166,14 @@ a:hover{
 }
 .save-with{
     font-size: 40px;
-    color: #020272;
+    color:var(--hading-all);
     font-weight:600;
     text-transform: uppercase;
     text-align: center;
 }
 .main-card-with{
     font-size: 18px;
-    color: #4040e9;
+    color:var(--antick);
     font-weight: 4600;
     text-transform: capitalize;
     text-align: center;
@@ -175,12 +184,12 @@ a:hover{
     text-transform: capitalize;
     text-align: center;
     font-size: 14px;
-    color: #505155;
+    color:var(--hading-all);
     padding-top: 20px;
 }
 .title-amazon-text{
     font-size: 24px;
-    color: #020272;
+    color:#382218;
     font-weight: 600;
     padding: 10px;
 }
@@ -188,7 +197,7 @@ a:hover{
     text-align: start;
     padding: 0px 15px 0px 15px;
     font-size: 16px;
-    color: #2a2b2c;
+    color:var(--hading-all);
     font-weight: 500;
 }
 .dtry{
@@ -207,7 +216,7 @@ a:hover{
     background: #2e2edb;
 }
 .btuttom-copne{
-    border:dotted 3px #020272 ;
+    border:dotted 3px var(--antick);
     border-radius: 10px;
     position: relative;
     padding: 5px;
@@ -215,7 +224,7 @@ a:hover{
 .oper-cord {
     position: absolute;
     width: 158px;
-    background: #4040e9;
+    background-color:var(--antick);
     padding: 5px;
     left: -4px;
     top: -4px;
@@ -237,6 +246,7 @@ a:hover{
 .main-side{
     display: flex;
     flex-direction: column;
+   
 }
 .side-cat {
     display: flex;
@@ -244,11 +254,11 @@ a:hover{
     align-items: center;
     gap: 20px;
     padding: 10px 2px 10px 2px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    
 }
 .categories-text{
     font-size: 18px;
-    color: #010718;
+    color:var(--hading-all);
     font-weight: 700;
     text-transform: capitalize;
     padding-bottom: 20px;
@@ -270,15 +280,16 @@ a:hover{
 .store-hading{
     font-size: 36px;
    font-weight: 700;
-   color: #232425;
+   color:var(--hading-all);
    text-align: center;
    padding: 20px;
 }
 .stores-sc{
-    border: 2px dotted #020272;
+    border: 2px dotted var(--hading-all);
    display: flex;
    justify-content: space-around;
    align-items: center;
+   background-color: var(--back-body)
    
 }
 .stores-catr{
@@ -290,7 +301,7 @@ a:hover{
 }
 .store-name{
     font-size: 18px;
-    color: #020272;
+   color: #232427;
     text-align: start;
 }
 .store-name-cati{
@@ -370,7 +381,12 @@ a:hover{
     font-size: 14px;
     color: #FFF;
 }
-
+svg {
+    vertical-align: middle;
+    width: 36px;
+    padding-left: 13px;
+    margin-top: -9px;
+}
 /* ===== home page and ===== */
 @media (max-width: 1180px){
     .imazon-logo {
@@ -413,6 +429,12 @@ a:hover{
     .asq-qc{
        padding: 20px 0 20px 0;
     }
+    .navbar{
+       
+        
+        height:78px;
+        z-index: 1000;
+    }
     /* ===== home page and ===== */
 }
 @media (max-width: 996px) {
@@ -425,6 +447,7 @@ a:hover{
         margin-left: -2px;
         flex-direction: column-reverse;
         padding-bottom: 10px;
+        
     }
     .widhtt{
         width: 100% !important;
@@ -444,6 +467,9 @@ a:hover{
            
             
         }
+        .user{
+            display: none;
+        }
        
     /* ===== home page and ===== */
 }
@@ -452,7 +478,7 @@ a:hover{
     .logo {
         
         font-size: 36px;
-        margin-top: -24px;
+        
     }
     .hading-main{
         font-size: 18px;
@@ -518,7 +544,7 @@ a:hover{
     .logo {
         
         font-size: 30px;
-        margin-top: -15px;
+       
     } 
     svg {
         vertical-align: middle;
@@ -610,7 +636,7 @@ a{
 }
 
 .white{
-    color: white;
+    color: #1a1917;
  
 }
 .kmas{
