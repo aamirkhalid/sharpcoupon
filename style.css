@@ -146,7 +146,9 @@ a:hover{
     color:var(--hading-all);
 }
 .main-home-card{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
+    background-color:var(--gard-nav);
+    border-radius: 10px;
 }
 
 .home-card{
@@ -157,6 +159,7 @@ a:hover{
 .home-card-dif{
     display: flex;
     flex-direction: column;
+    padding: 5px 0px 5px 0px;
 }
 .imazon-logo{
     max-width: 160px;
@@ -396,6 +399,24 @@ svg {
     color:var(--antick);
     font-weight: 600;
 }
+/* =====coupon page===== */
+.coupon-page{
+    background-color:var(--back-body);   
+}
+.coupon-hading-tow{
+text-align: center;
+margin-top: 50px;
+
+background: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.coupon-coupon{
+    padding: 30px;
+}
+.janio{
+    padding: 0px 10px 10px 10px !important;
+}
 /* ===== home page and ===== */
 @media (max-width: 1180px){
     .imazon-logo {
@@ -460,6 +481,8 @@ svg {
     }
     .widhtt{
         width: 100% !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
         }
         .logo{
             
@@ -486,6 +509,9 @@ svg {
             gap: 20px;
             padding: 10px 12px 10px 2px;
             
+        }
+        .janio{
+            padding: 0px 20px 0px 20px !important;
         }
        
     /* ===== home page and ===== */
@@ -562,6 +588,7 @@ svg {
 .artical-buttom {
     padding: 5px;
 }
+
 /* ===== home page and ===== */
    }
 
@@ -625,6 +652,9 @@ svg {
         justify-content: center;
         align-items: center;
     }
+    .kmashh{
+        padding: 5px !important;
+    }
     /* ===== home page and ===== */
 }
 
@@ -667,4 +697,7 @@ a{
 }
 .accordion-button:focus {
     box-shadow: none;
+}
+.kmasdf{
+    margin-left: 20px;
 }
