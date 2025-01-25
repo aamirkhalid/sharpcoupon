@@ -425,6 +425,13 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 40px;
     font-weight: 700;
 }
+.coupon-kmlo{
+    text-align: center;
+    margin-top: 50px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 6px 15px;
+    margin-bottom: 40px;
+}
 .janio{
     padding: 0px 10px 10px 10px !important;
 }
@@ -505,7 +512,36 @@ img.img-fluid.coupen-ty {
     background: white;
     
 }
+.atoz{
+    font-size: 48px;
+    padding: 10px;
+    font-weight: 900;
+}
+.atoz-store{
+    display: flex;
+    font-size:36px;
+    gap: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #010718;
+    font-weight: 600;
+    padding-right: 0;
+    border-bottom: 1px dotted black;
+    justify-content: flex-end;
+}
+.faxetu{
+    justify-content: flex-start;
+}
+.all-stor-text-mk{
+    color: #010718;
+    padding-bottom: 20px;
+}
+.all-stor-text-mk:hover{
+  text-decoration: underline;
+  
+}
 /* ===== home page and ===== */
+
 @media (max-width: 1180px){
     .imazon-logo {
         max-width: 120px;
@@ -558,6 +594,13 @@ img.img-fluid.coupen-ty {
         padding-left: 5px;
         
      }
+     .atoz-store{
+      
+        font-size:28px;
+        gap: 8px;
+       
+    }
+   
     /* ===== home page and ===== */
 }
 @media (max-width: 996px) {
@@ -688,6 +731,20 @@ img.img-fluid.coupen-ty {
 .coupon-coupon{
     font-size: 24px;
     
+}
+.atoz-store{
+   
+    font-size: 20px;
+    justify-content: center;
+}
+.faxetu{
+    justify-content: center;
+}
+.atoz-store{
+      
+    font-size:20px;
+    gap: 5px;
+   
 }
 /* ===== home page and ===== */
    }
