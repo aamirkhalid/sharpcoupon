@@ -652,7 +652,7 @@ font-size: 16px;
 }
 /* =====store page re desing ===== */
 .dubll-part{
-    background-color:var(--back-body);
+    background-color:rgb(221, 217, 217);
 }
 .card-side{
     background-color:#f5f5f7;
@@ -800,7 +800,7 @@ padding-right:25px;
 .highlit{
     font-size: 24px;
     text-align: start;
- padding: 10px;
+ padding: 10px 10px 10px 0px;
  color:var(--hading-all);
     font-weight: 600;
 }
@@ -810,7 +810,6 @@ padding-right:25px;
     flex-direction: column;
     justify-content: center;
     align-items: self-start;
-    padding-left: 20px;
 }
 .disscount-hading{
     font-size: 16px;
@@ -861,6 +860,29 @@ padding-right:25px;
 font-weight: 700;
     gap: 5px;
     padding-bottom: 20px;
+}
+
+.tab-font{
+    font-size: 17px !important;
+    color:var(--hading-thrr) !important;
+}
+.tab-sub{
+    font-size: 16px !important;
+    color:var(--hading-all) !important;
+}
+.tabl-ta{
+    width: 25% !important;
+    
+}
+.tabl-tb{
+    width: 50% !important;
+}
+.tabl-tc{
+    width: 25% !important;
+}
+.eddtor{
+    
+    padding: 20px 20px 20px 0px;
 }
 /* ===== home page and ===== */
 
@@ -1275,6 +1297,24 @@ img.img-fluid.sinstore-logo {
    
     left: -13px;
 }
+.tabl-ta{
+    width: 20% !important;
+    
+}
+.tabl-tb{
+    width: 50% !important;
+}
+.tabl-tc{
+    width: 30% !important;
+}
+.tab-font{
+    font-size: 14px !important;
+    color:var(--hading-thrr) !important;
+}
+.tab-sub{
+    font-size: 12px !important;
+    color:var(--hading-all) !important;
+}
 
 
 }
@@ -1324,4 +1364,7 @@ a{
 }
 .kmasdf{
     margin-left: 20px;
+}
+.col-link{
+color: #4dbef7;
 }
