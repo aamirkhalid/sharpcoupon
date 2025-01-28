@@ -149,7 +149,8 @@ a:hover{
 .main-home-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
     background-color:var(--gard-nav);
-    border-radius: 10px;
+    border-radius: 10px; 
+    margin-left: 20px;
 }
 
 .home-card{
@@ -568,6 +569,14 @@ img.img-fluid.coupen-ty {
     color:var(--hading-all);
    
 
+} 
+.store-sun-hading{
+    font-size: 32px;
+    margin-top: 30px;
+    font-weight:800;
+    color:var(--hading-all);
+   
+
 }
 
 .saving {
@@ -884,6 +893,97 @@ font-weight: 700;
     
     padding: 20px 20px 20px 0px;
 }
+
+/* =====cashback page and ===== */
+.cash-bk{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.cashtk{
+    text-align: center;
+}
+.cash-card{
+    background: white;
+padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    max-width: 180px; 
+    margin-top: 10px;
+   
+}
+.cash-store{
+    font-size: 14px;
+    color:var(--hading-all) !important;
+}
+.cashbottm {
+    background-color: #1a89f1;
+    padding: 5px 23px 5px 24px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.cash-up-to{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.shop-now{
+    background:  #1a89f1;
+    margin-right: 10px;
+    padding: 5px 30px 5px 30px; 
+    border-radius: 5px;
+} 
+.showp-now{
+    font-size: 22px; 
+    color: white; 
+    font-weight: 700; 
+    text-transform: capitalize;
+    text-align: center; 
+    margin-top: 2px;
+} 
+.bunns{
+    font-size: 16px;
+    color: #1a89f1 ;
+    padding-left: 10px;
+} 
+.card-disct{
+    font-size: 20px;
+    color: red;
+} 
+.card-mb-mb{
+    display: none;
+    font-size: 20px;
+    color: red;
+    padding-left: 25px;
+} 
+.imazon-logo {
+   
+    margin-left: -12px; 
+    
+   
+} 
+.coupon-sigall-mra {
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 4px;
+} 
+.aling{
+   
+    color:var(--hading-all) !important; 
+    font-size: 15px;
+} 
+.pulary{
+    font-size:18px; 
+   
+} 
+.opular{
+    padding-left: 30px;
+}
 /* ===== home page and ===== */
 
 @media (max-width: 1180px){
@@ -944,8 +1044,20 @@ font-weight: 700;
         font-size:28px;
         gap: 8px;
        
+    } 
+    .showp-now {
+        font-size:20px;
+    } 
+    .shop-now{
+        background:  #1a89f1;
+        margin-right: 10px;
+        padding: 5px 15px 5px 15px;
+    } 
+    
+    .store-sun-hading {
+        font-size: 26px;
+       
     }
-   
     /* ===== home page and ===== */
 }
 @media (max-width: 996px) {
@@ -1167,6 +1279,15 @@ img.img-fluid.sinstore-logo {
     .info-side{
         padding-left: 5px !important;
         margin-left: 0px;
+    } 
+    .main-home-card{
+      
+        margin-left: 0px;
+    } 
+    .imazon-logo {
+        max-width: 90px;
+        margin-left: -12px;
+        padding-top: 1px;
     }
 /* ===== home page and ===== */
    }
@@ -1315,7 +1436,33 @@ img.img-fluid.sinstore-logo {
     font-size: 12px !important;
     color:var(--hading-all) !important;
 }
+.cash-card {
 
+    max-width: 136px;
+    margin-top: 10px;
+}
+.cash-up-to {
+    font-size: 15px;
+   
+} 
+.showp-now {
+    font-size: 18px;
+} 
+.shop-now{
+    background:  #1a89f1;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+}  
+.card-disct{
+  font-size: 18px;
+} 
+.home-card-dif{
+    align-items: center;
+} 
+.store-sun-hading {
+    font-size: 22px;
+    
+}
 
 }
 @media (max-width: 480px){
@@ -1367,4 +1514,7 @@ a{
 }
 .col-link{
 color: #4dbef7;
+}
+.row{
+    max-width: 1440px;
 }
