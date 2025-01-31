@@ -1144,6 +1144,10 @@ img.logoopo.rounded-circle {
     margin-top: -40px; 
     margin-left: 20%;
 } 
+.form-control{
+    font-size: 20px;
+    font-weight: 800;
+}
 .form-control:focus {
     color: transparent;
     background-color: #fff;
