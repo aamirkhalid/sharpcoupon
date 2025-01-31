@@ -1,217 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sharp Coupon</title>
-    <link rel="manifest" href="./site.webmanifest" />
-    <meta name="theme-color" content="#99582a">
-    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="top-text d-flex justify-content-center kmas">
-        <span class="top-th ">Did the code work?</span>
-    <span><svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M9 49H1C0.4 49 0 48.6 0 48V19C0 18.4 0.5 18 1 18H9C9.6 18 10 18.5 10 19V48C10 48.6 9.5 49 9 49ZM2 47H8V20H2V47ZM25.8 47C25.1 47 24.4 47 23.7 47C21 46.9 17.8 46.4 15.5 46.1C14.4 45.9 13.4 45.8 12.8 45.8C12.3 45.8 11.9 45.3 11.9 44.8V21.1C11.9 20.7 12.2 20.3 12.5 20.2L13 20C15.3 19.2 20 17.4 22.4 14.8C25 12.1 26.2 8.4 26.2 4C26.3 2.6 27.1 0 29.8 0C30.3 0 30.9 0.1 31.6 0.3C31.7 0.3 31.9 0.4 32 0.5C33.1 1.6 36.7 8.1 33.3 18H39C39.4 18 42.4 18.1 43.6 21.9C43.8 22.4 44.6 24.5 42.8 27.1C43.3 28 44.1 29.9 43.2 31.9C43.1 32.1 42.7 33.3 41.9 34.1C42.4 35.8 42.3 38.6 39.9 40.6C39.8 41.8 39.3 44.6 36.9 45.6C36.6 45.7 32.4 47 25.8 47ZM14 43.9C14.5 44 15.2 44.1 15.9 44.2C18.2 44.5 21.3 44.9 23.9 45.1C31.3 45.4 36.2 43.8 36.2 43.8C37.9 43.1 37.9 40.2 37.9 40.2C37.9 39.9 38.1 39.6 38.3 39.4C41.1 37.4 39.8 34.4 39.8 34.2C39.6 33.7 39.8 33.2 40.3 32.9C40.7 32.7 41.2 31.8 41.4 31.3C42.2 29.5 40.9 27.8 40.9 27.8C40.6 27.4 40.6 26.9 40.9 26.5C42.6 24.5 41.9 22.9 41.9 22.8C41.9 22.8 41.9 22.7 41.8 22.7C41 20.1 39.2 20 39.1 20H31.9C31.6 20 31.3 19.8 31.1 19.6C30.9 19.3 30.9 19 31 18.7C34.5 9.6 31.7 3.4 30.8 2.1C30.4 2 30.1 2 29.9 2C28.5 2 28.4 3.8 28.4 4C28.4 8.9 27 13 24.1 16.1C21.4 19 16.6 20.8 14.1 21.7V43.9H14ZM5 45C4.4 45 4 44.6 4 44C4 43.4 4.5 43 5 43C5.5 43 6 43.5 6 44C6 44.6 5.5 45 5 45Z" fill="white"/>
-      </svg>
-       </span>
-       <span class="like"><svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M35 0H43C43.6 0 44 0.4 44 1V30C44 30.6 43.5 31 43 31H35C34.4 31 34 30.6 34 30V1C34 0.4 34.5 0 35 0ZM42 2H36V29H42V2ZM18.2 2C18.9 2 19.6 2 20.3 2C23 2.1 26.2 2.6 28.5 2.9C29.6 3.1 30.6 3.2 31.2 3.2C31.7 3.2 32.1 3.7 32.1 4.2V27.9C32.1 28.3 31.8 28.7 31.5 28.8L31 29C28.7 29.8 24 31.6 21.6 34.2C19 36.9 17.8 40.6 17.8 45C17.7 46.4 16.9 49 14.2 49C13.7 49 13.1 48.9 12.4 48.7C12.3 48.7 12.1 48.6 12 48.5C10.9 47.4 7.29999 40.9 10.7 31H4.99999C4.59999 31 1.59999 30.9 0.399988 27.1C0.199988 26.6 -0.600012 24.5 1.19999 21.9C0.699988 21 -0.100012 19.1 0.799988 17.1C0.899988 16.9 1.29999 15.7 2.09999 14.9C1.59999 13.2 1.69999 10.4 4.09999 8.4C4.19999 7.2 4.69999 4.4 7.09999 3.4C7.39999 3.4 11.6 2 18.2 2ZM30 5.1C29.5 5 28.8 4.9 28.1 4.8C25.8 4.5 22.7 4.1 20.1 3.9C12.7 3.7 7.89999 5.3 7.79999 5.3C6.09999 6 6.09999 8.9 6.09999 8.9C6.09999 9.2 5.89999 9.5 5.69999 9.7C2.89999 11.7 4.19999 14.7 4.19999 14.9C4.39999 15.4 4.19999 15.9 3.69999 16.2C3.29999 16.4 2.79999 17.3 2.59999 17.8C1.79999 19.6 3.09999 21.3 3.09999 21.3C3.39999 21.7 3.39999 22.2 3.09999 22.6C1.39999 24.6 2.09999 26.2 2.09999 26.3C2.09999 26.3 2.09999 26.4 2.19999 26.4C2.99999 28.9 4.79999 29 4.99999 29H12.2C12.5 29 12.8 29.2 13 29.4C13.2 29.7 13.2 30 13.1 30.3C9.59999 39.4 12.4 45.6 13.3 46.9C13.6 47 13.9 47 14.1 47C15.5 47 15.6 45.2 15.6 45C15.6 40.1 17 36 19.9 32.9C22.6 30 27.4 28.2 29.9 27.3V5.1H30ZM39 4C39.6 4 40 4.5 40 5C40 5.6 39.6 6 39 6C38.4 6 38 5.5 38 5C38 4.5 38.5 4 39 4Z" fill="white"/>
-        </svg></span>
-      
-    <span class="feed-back">Thanks for your feedback!</span>
-      
-    
-       </div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg nav-color">
-      <a class="navbar-brand  logo" href="#">Sharp <span class="coupon">Coupon</span> </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon white "></span>
-      </button>
-      <div class="container nav-color mobile-yp">
-        
-       
-       
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav md-mb-auto sm-ms-auto ">
-            <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#"><span class="white">Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  white" href="#">Coupon</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  white" href="#">Stores</a>
-            </li>
-           
-            <li class="nav-item">
-              <a class="nav-link  white" href="#">Trending</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link white" href="#">Cash Back</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link white" href="#">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link white" href="#">Blog</a>
-            </li>
-            
-            <li class="nav-item">
-             
-            </li>
-          </ul>
-         
-         
-        </div>
-        <div class="user logout"><span>login</span>  <a class="nav-link white" href="#"><svg cl xmlns="http://www.w3.org/2000/svg"  width="24" height="24" fill="currentColor" class="bi bi-person-fill-lock" viewBox="0 0 16 16">
-          <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5v-1a2 2 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693Q8.844 9.002 8 9c-5 0-6 3-6 4m7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"/>
-        </svg></a>
-        </div>
-      </div>
-    </nav>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sharp Coupon</title>
+        <link rel="manifest" href="./site.webmanifest" />
+        <meta name="theme-color" content="#99582a" />
+        <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+        <link rel="shortcut icon" href="./favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="top-text d-flex justify-content-center kmas">
+            <span class="top-th">Did the code work?</span>
+            <span
+                ><svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 49H1C0.4 49 0 48.6 0 48V19C0 18.4 0.5 18 1 18H9C9.6 18 10 18.5 10 19V48C10 48.6 9.5 49 9 49ZM2 47H8V20H2V47ZM25.8 47C25.1 47 24.4 47 23.7 47C21 46.9 17.8 46.4 15.5 46.1C14.4 45.9 13.4 45.8 12.8 45.8C12.3 45.8 11.9 45.3 11.9 44.8V21.1C11.9 20.7 12.2 20.3 12.5 20.2L13 20C15.3 19.2 20 17.4 22.4 14.8C25 12.1 26.2 8.4 26.2 4C26.3 2.6 27.1 0 29.8 0C30.3 0 30.9 0.1 31.6 0.3C31.7 0.3 31.9 0.4 32 0.5C33.1 1.6 36.7 8.1 33.3 18H39C39.4 18 42.4 18.1 43.6 21.9C43.8 22.4 44.6 24.5 42.8 27.1C43.3 28 44.1 29.9 43.2 31.9C43.1 32.1 42.7 33.3 41.9 34.1C42.4 35.8 42.3 38.6 39.9 40.6C39.8 41.8 39.3 44.6 36.9 45.6C36.6 45.7 32.4 47 25.8 47ZM14 43.9C14.5 44 15.2 44.1 15.9 44.2C18.2 44.5 21.3 44.9 23.9 45.1C31.3 45.4 36.2 43.8 36.2 43.8C37.9 43.1 37.9 40.2 37.9 40.2C37.9 39.9 38.1 39.6 38.3 39.4C41.1 37.4 39.8 34.4 39.8 34.2C39.6 33.7 39.8 33.2 40.3 32.9C40.7 32.7 41.2 31.8 41.4 31.3C42.2 29.5 40.9 27.8 40.9 27.8C40.6 27.4 40.6 26.9 40.9 26.5C42.6 24.5 41.9 22.9 41.9 22.8C41.9 22.8 41.9 22.7 41.8 22.7C41 20.1 39.2 20 39.1 20H31.9C31.6 20 31.3 19.8 31.1 19.6C30.9 19.3 30.9 19 31 18.7C34.5 9.6 31.7 3.4 30.8 2.1C30.4 2 30.1 2 29.9 2C28.5 2 28.4 3.8 28.4 4C28.4 8.9 27 13 24.1 16.1C21.4 19 16.6 20.8 14.1 21.7V43.9H14ZM5 45C4.4 45 4 44.6 4 44C4 43.4 4.5 43 5 43C5.5 43 6 43.5 6 44C6 44.6 5.5 45 5 45Z"
+                        fill="white"
+                    />
+                </svg>
+            </span>
+            <span class="like"
+                ><svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M35 0H43C43.6 0 44 0.4 44 1V30C44 30.6 43.5 31 43 31H35C34.4 31 34 30.6 34 30V1C34 0.4 34.5 0 35 0ZM42 2H36V29H42V2ZM18.2 2C18.9 2 19.6 2 20.3 2C23 2.1 26.2 2.6 28.5 2.9C29.6 3.1 30.6 3.2 31.2 3.2C31.7 3.2 32.1 3.7 32.1 4.2V27.9C32.1 28.3 31.8 28.7 31.5 28.8L31 29C28.7 29.8 24 31.6 21.6 34.2C19 36.9 17.8 40.6 17.8 45C17.7 46.4 16.9 49 14.2 49C13.7 49 13.1 48.9 12.4 48.7C12.3 48.7 12.1 48.6 12 48.5C10.9 47.4 7.29999 40.9 10.7 31H4.99999C4.59999 31 1.59999 30.9 0.399988 27.1C0.199988 26.6 -0.600012 24.5 1.19999 21.9C0.699988 21 -0.100012 19.1 0.799988 17.1C0.899988 16.9 1.29999 15.7 2.09999 14.9C1.59999 13.2 1.69999 10.4 4.09999 8.4C4.19999 7.2 4.69999 4.4 7.09999 3.4C7.39999 3.4 11.6 2 18.2 2ZM30 5.1C29.5 5 28.8 4.9 28.1 4.8C25.8 4.5 22.7 4.1 20.1 3.9C12.7 3.7 7.89999 5.3 7.79999 5.3C6.09999 6 6.09999 8.9 6.09999 8.9C6.09999 9.2 5.89999 9.5 5.69999 9.7C2.89999 11.7 4.19999 14.7 4.19999 14.9C4.39999 15.4 4.19999 15.9 3.69999 16.2C3.29999 16.4 2.79999 17.3 2.59999 17.8C1.79999 19.6 3.09999 21.3 3.09999 21.3C3.39999 21.7 3.39999 22.2 3.09999 22.6C1.39999 24.6 2.09999 26.2 2.09999 26.3C2.09999 26.3 2.09999 26.4 2.19999 26.4C2.99999 28.9 4.79999 29 4.99999 29H12.2C12.5 29 12.8 29.2 13 29.4C13.2 29.7 13.2 30 13.1 30.3C9.59999 39.4 12.4 45.6 13.3 46.9C13.6 47 13.9 47 14.1 47C15.5 47 15.6 45.2 15.6 45C15.6 40.1 17 36 19.9 32.9C22.6 30 27.4 28.2 29.9 27.3V5.1H30ZM39 4C39.6 4 40 4.5 40 5C40 5.6 39.6 6 39 6C38.4 6 38 5.5 38 5C38 4.5 38.5 4 39 4Z"
+                        fill="white"
+                    /></svg
+            ></span>
 
-
-      <div class="container-fluid pt-5 px-0  kmas">
-        <div class=" row coupon-kmlo pt-0 ">
-        <div class="col-12">  <h1 class="coupon-coupon">Browse All Stores</h1></div> 
-        
+            <span class="feed-back">Thanks for your feedback!</span>
         </div>
-    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg nav-color">
+            <a class="navbar-brand logo" href="#">Sharp <span class="coupon">Coupon</span> </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon white"></span>
+            </button>
+            <div class="container nav-color mobile-yp">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav md-mb-auto sm-ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><span class="white">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Coupon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Stores</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Cash Back</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                    </ul>
+                </div>
+                <div class="user logout">
+                    <span>login</span>
+                    <a class="nav-link white" href="#"
+                        ><svg
+                            cl
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            fill="currentColor"
+                            class="bi bi-person-fill-lock"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5v-1a2 2 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693Q8.844 9.002 8 9c-5 0-6 3-6 4m7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"
+                            /></svg
+                    ></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid pt-5 px-0 kmas">
+            <div class="row coupon-kmlo pt-0">
+                <div class="col-12"><h1 class="coupon-coupon">Browse All Stores</h1></div>
+            </div>
+
             <div class="row px-5 vendor-mb border-cal pb-4">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 atoz-store ">
-            <a class="all-stor-text-mk" href="http://">A </a>
-            <a class="all-stor-text-mk" href="http://">b </a>
-            <a class="all-stor-text-mk" href="http://">c </a>
-            <a class="all-stor-text-mk" href="http://">d </a>
-            <a class="all-stor-text-mk" href="http://">e </a>
-            <a class="all-stor-text-mk" href="http://">f </a>
-            <a class="all-stor-text-mk" href="http://">g </a>
-            <a class="all-stor-text-mk" href="http://">h </a>
-            <a class="all-stor-text-mk" href="http://">i </a>
-            <a class="all-stor-text-mk" href="http://">j </a>
-            <a class="all-stor-text-mk" href="http://">k </a>
-            <a class="all-stor-text-mk" href="http://">l </a>
-            <a class="all-stor-text-mk" href="http://">m </a>
-            <a class="all-stor-text-mk" href="http://">n </a>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 atoz-store  faxetu">
-            
-            <a class="all-stor-text-mk" href="http://">o </a>
-            <a class="all-stor-text-mk" href="http://">p </a>
-            <a class="all-stor-text-mk" href="http://">q </a>
-            <a class="all-stor-text-mk" href="http://">r </a>
-            <a class="all-stor-text-mk" href="http://">s </a>
-            <a class="all-stor-text-mk" href="http://">t </a>
-            <a class="all-stor-text-mk" href="http://">u </a>
-            <a class="all-stor-text-mk" href="http://">v </a>
-            <a class="all-stor-text-mk" href="http://">w </a>
-            <a class="all-stor-text-mk" href="http://">x </a>
-            <a class="all-stor-text-mk" href="http://">y </a>
-            <a class="all-stor-text-mk" href="http://">z </a>
-            <a class="all-stor-text-mk" href="http://">1&9 </a>
-        </div>
-        
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 atoz-store">
+                    <a class="all-stor-text-mk" href="http://">A </a>
+                    <a class="all-stor-text-mk" href="http://">b </a>
+                    <a class="all-stor-text-mk" href="http://">c </a>
+                    <a class="all-stor-text-mk" href="http://">d </a>
+                    <a class="all-stor-text-mk" href="http://">e </a>
+                    <a class="all-stor-text-mk" href="http://">f </a>
+                    <a class="all-stor-text-mk" href="http://">g </a>
+                    <a class="all-stor-text-mk" href="http://">h </a>
+                    <a class="all-stor-text-mk" href="http://">i </a>
+                    <a class="all-stor-text-mk" href="http://">j </a>
+                    <a class="all-stor-text-mk" href="http://">k </a>
+                    <a class="all-stor-text-mk" href="http://">l </a>
+                    <a class="all-stor-text-mk" href="http://">m </a>
+                    <a class="all-stor-text-mk" href="http://">n </a>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 atoz-store faxetu">
+                    <a class="all-stor-text-mk" href="http://">o </a>
+                    <a class="all-stor-text-mk" href="http://">p </a>
+                    <a class="all-stor-text-mk" href="http://">q </a>
+                    <a class="all-stor-text-mk" href="http://">r </a>
+                    <a class="all-stor-text-mk" href="http://">s </a>
+                    <a class="all-stor-text-mk" href="http://">t </a>
+                    <a class="all-stor-text-mk" href="http://">u </a>
+                    <a class="all-stor-text-mk" href="http://">v </a>
+                    <a class="all-stor-text-mk" href="http://">w </a>
+                    <a class="all-stor-text-mk" href="http://">x </a>
+                    <a class="all-stor-text-mk" href="http://">y </a>
+                    <a class="all-stor-text-mk" href="http://">z </a>
+                    <a class="all-stor-text-mk" href="http://">1&9 </a>
+                </div>
+
                 <h1 class="atoz">A</h1>
-                
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  p-3 vender-moble-pading">
-                  <a class="vender-store" href="@">Amazon Coupons</a>
-                  <a class="vender-store" href="http://">Amazon Coupons</a>
-                  <a class="vender-store" href="http://">Amazon Coupons</a>
-                  <a class="vender-store" href="http://">Amazon Coupons</a>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-3 vender-moble-pading">
+                    <a class="vender-store" href="@">Amazon Coupons</a>
+                    <a class="vender-store" href="http://">Amazon Coupons</a>
+                    <a class="vender-store" href="http://">Amazon Coupons</a>
+                    <a class="vender-store" href="http://">Amazon Coupons</a>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-3 vender-moble-pading">
-                  <a class="vender-store" href="http://">The Ordinary Coupons</a>
-                  <a class="vender-store" href="http://">The Ordinary Coupons</a>
-                  <a class="vender-store" href="http://">The Ordinary Coupons</a>
-                  <a class="vender-store" href="http://">The Ordinary Coupons</a>
+                    <a class="vender-store" href="http://">The Ordinary Coupons</a>
+                    <a class="vender-store" href="http://">The Ordinary Coupons</a>
+                    <a class="vender-store" href="http://">The Ordinary Coupons</a>
+                    <a class="vender-store" href="http://">The Ordinary Coupons</a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  p-3 vender-moble-pading">
-                  <a class="vender-store" href="http://">ITA Airways Coupons</a>
-                  <a class="vender-store" href="http://">ITA Airways Coupons</a>
-                  <a class="vender-store" href="http://">ITA Airways Coupons</a>
-                  <a class="vender-store" href="http://">ITA Airways Coupons</a>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-3 vender-moble-pading">
+                    <a class="vender-store" href="http://">ITA Airways Coupons</a>
+                    <a class="vender-store" href="http://">ITA Airways Coupons</a>
+                    <a class="vender-store" href="http://">ITA Airways Coupons</a>
+                    <a class="vender-store" href="http://">ITA Airways Coupons</a>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  p-3  vender-moble-pading">
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
-                  <a class="vender-store" href="http://">Dell Coupons</a>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-3 vender-moble-pading">
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
+                    <a class="vender-store" href="http://">Dell Coupons</a>
                 </div>
-               
-              </div>
-      
-      </div>
+            </div>
+        </div>
 
-      <div class="container-fluid p-4 pt-5 kmas-footer">
-        <footer class="sharp-footer">
-       <div class="row fotter-main">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer-first-set">
-          <h2 class="lightt">Sharp Coupon</h2>
-          <p class="text-light dis-footer">On this website we have a large number of coupons, deals, and promo codes. They will help you save money while shopping at your favorite online stores.</p>
+        <div class="container-fluid p-4 pt-5 kmas-footer">
+            <footer class="sharp-footer">
+                <div class="row fotter-main">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer-first-set">
+                        <h2 class="lightt">Sharp Coupon</h2>
+                        <p class="text-light dis-footer">
+                            On this website we have a large number of coupons, deals, and promo codes. They will help
+                            you save money while shopping at your favorite online stores.
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 footer-tow-two">
+                        <h3 class="footer-link-hading">Cash Back</h3>
+                        <a href="http://"><p class="ligh-ds">Browse Stores</p></a>
+                        <p class="ligh-ds">Browse Categories</p>
+                        <p class="ligh-ds">Browse Coupon</p>
+                        <p class="ligh-ds">Browse Deals</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 footer-theer-therr">
+                        <h3 class="footer-link-hading">Our Company</h3>
+                        <p class="ligh-ds">Privacy Policy</p>
+                        <p class="ligh-ds">Cookie Policy</p>
+                        <p class="ligh-ds">Terms and Conditions</p>
+                        <p class="ligh-ds">Browse Deals</p>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 footer-four-four">
+                        <h3 class="footer-link-hading">Sharp</h3>
+                        <p class="ligh-ds">Coupon & promo</p>
+                        <p class="ligh-ds">Deals & Offers</p>
+                        <p class="ligh-ds">Cotact & help</p>
+                        <p class="ligh-ds"></p>
+                    </div>
+                </div>
+            </footer>
+            <p class="p-0 m-0 text-light">© 2025 Company, All rights reserved.</p>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 footer-tow-two ">
-          <h3 class="footer-link-hading">Cash Back</h3>
-         <a href="http://"><p class="ligh-ds">Browse Stores</p></a> 
-          <p class="ligh-ds">Browse Categories</p>
-          <p class="ligh-ds">Browse Coupon</p>
-          <p class="ligh-ds">Browse Deals</p>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 footer-theer-therr">
-          <h3 class="footer-link-hading">Our Company</h3>
-          <p class="ligh-ds">Privacy Policy</p>
-          <p class="ligh-ds">Cookie Policy</p>
-          <p class="ligh-ds">Terms and Conditions</p>
-          <p class="ligh-ds">Browse Deals</p>
-        </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 footer-four-four">
-          <h3 class="footer-link-hading">Sharp</h3>
-          <p class="ligh-ds">Coupon & promo</p>
-          <p class="ligh-ds">Deals & Offers</p>
-          <p class="ligh-ds">Cotact & help</p>
-          <p class="ligh-ds"></p>
-        </div>
-    
-       </div>
-        </footer>
-        <p class="p-0 m-0 text-light">© 2025 Company, All rights reserved.</p>
-      </div>
 
-      <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js')
-                .then(() => {})
-                .catch(error => console.error('Service Worker Registration Failed:', error));
-        }
-    </script>
-    
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-  
-  </body>
-  </html>
+        <script>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker
+                    .register("service-worker.js")
+                    .then(() => {})
+                    .catch((error) => console.error("Service Worker Registration Failed:", error));
+            }
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
