@@ -199,7 +199,7 @@ a:hover{
     font-weight: 600;
     padding: 10px;
 }
-.card-disct{
+.card-disct-op{
     text-align: start;
     padding: 0px 15px 0px 15px;
     font-size: 16px;
@@ -916,7 +916,8 @@ padding-top: 15px;
     max-width: 180px; 
     margin-top: 10px;
    
-}
+} 
+
 .cash-store{
     font-size: 14px;
     color:var(--hading-all) !important;
@@ -983,6 +984,178 @@ padding-top: 15px;
 } 
 .opular{
     padding-left: 30px;
+} 
+
+/* ===== categori page ===== */
+.ategories{
+   font-size: 20px; 
+   color: white; 
+   background: #107FB6; 
+   padding: 5px; 
+   text-align: center;
+} 
+.padlt{
+    padding-left: 20px; 
+    margin-top: 5px;
+} 
+.elatoot{
+    font-size: 36px; 
+    text-align: center; 
+    padding: 30px; 
+    color: #000103; 
+    font-weight: 700; 
+} 
+.border-rigt{
+    border-right: 2px solid var(--hading-all);
+} 
+
+
+.savepop{
+text-align: center; 
+background: #0f1101;  
+font-size: 16px; 
+color: white;
+}
+.deicrt{
+    font-size: 16px;
+   color:var(--hading-all) ; 
+   display: -webkit-box;
+   overflow: hidden;
+   -webkit-line-clamp:2;
+   -webkit-box-orient: vertical;
+
+}
+.bordettt{
+    border-bottom:2px solid var(--hading-all); 
+    padding-bottom:10px ;
+} 
+.mb-font{
+    font-size: 24px; 
+    font-weight: 600;
+} 
+.dels-pop{
+    font-size: 20px; 
+    color: #000103; 
+    font-weight: 600; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+} 
+.padlttt{
+    padding-left:20px;
+} 
+/* ===== home page and ===== */ 
+
+.modal-content { 
+    
+    border: none;
+    background: transparent; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal-heading {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: var(--hading-all);
+}
+.subheading {
+    font-size:16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+.copy-wrapper {
+    display: flex;
+    max-width: 320px;
+    margin: 0 auto 20px;
+    height: 60px;
+}
+#copyInput {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+#copyButton {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+.feedback-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0 15px;
+    padding-bottom: 35px;
+}
+.feedback-buttons {
+    display: flex;
+    gap: 10px;
+}
+.feedback-btn {
+    font-size: 1.2rem;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #000;
+}
+.modal-footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+}
+.copy-message {
+    display: none;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #000;
+    opacity: 0.7;
+    border: none;
+    background: none;
+}
+/* Add this new CSS rule */
+.feedback-message {
+    display: none;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    font-size: 13px;
+    width: 160px;
+    top: 9px;
+    right: -6px;
+    color: green;
+}
+.modal-dialog{
+    position: relative; 
+   
+} 
+.btn-close{
+    width: 10%;
+    margin-left: 89%;
+} 
+
+img.logoopo.rounded-circle {
+    max-width: 80px;
+    margin-top: -40px; 
+    margin-left: 20%;
+} 
+.form-control:focus {
+    color: transparent;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+} 
+.btn-primary{
+    padding: 3px 20px; 
+border: 2px dotted ; 
+font-size: 20px;
+background: #000;
 }
 /* ===== home page and ===== */
 
@@ -1096,12 +1269,21 @@ padding-top: 15px;
             justify-content:center;
             align-items: center;
             gap: 20px;
-            padding: 10px 12px 10px 2px;
+            padding: 10px 12px 10px 2px; 
+            flex-direction: column;
             
         }
         .janio{
             padding: 0px 20px 0px 20px !important;
-        }
+        } 
+        .elatoot{
+            font-size: 20px; 
+           
+        } 
+        .mb-font{
+            font-size: 18px; 
+           
+        } 
        
     /* ===== home page and ===== */
 }
@@ -1288,6 +1470,13 @@ img.img-fluid.sinstore-logo {
         max-width: 90px;
         margin-left: -12px;
         padding-top: 1px;
+    } 
+    .pading-re{
+        padding-left: 0 !important; 
+        padding-right: 0 !important;
+    } 
+    .padlttt{
+        padding-left:2px !important;
     }
 /* ===== home page and ===== */
    }
@@ -1463,7 +1652,12 @@ img.img-fluid.sinstore-logo {
     font-size: 22px;
     
 }
-
+.mb-font{
+    font-size: 12px;
+} 
+.mb-gyt{
+    padding-top: 20px;
+}
 }
 @media (max-width: 480px){
     .cord-main-body {
