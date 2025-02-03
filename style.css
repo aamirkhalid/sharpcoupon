@@ -222,20 +222,21 @@ a:hover{
     width: 143px;
     background: #2e2edb;
 }
-.btuttom-copne{
-    border:dotted 3px var(--antick);
+.btuttom-copne {
+    border: dotted 3px var(--antick);
     border-radius: 10px;
-    position: relative;
     padding: 5px;
+    position: absolute;
+    width: 163px;
 }
 .oper-cord {
     position: absolute;
-    width: 158px;
+    width: 132px;
     background-color:var(--antick);
     padding: 5px;
     left: -4px;
     top: -4px;
-    height: 54px;
+    height: 52px;
     text-align: center;
 }
 .coupon-promo{
@@ -244,11 +245,11 @@ a:hover{
     text-align: center;
     margin-top: 10px;
 }
-.copne-cod{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    color: #010718;
+.copne-cod {
+    font-size: 18px;
+    margin-top: 4px;
+    text-align: end;
+    margin-right: 10px;
 }
 .main-side{
     display: flex;
@@ -659,6 +660,9 @@ font-size: 16px;
     font-size: 18px;
     text-transform: capitalize;
     color: #2c2e30;
+} 
+.hnjki{
+    margin-top: 50px;
 }
 /* =====store page re desing ===== */
 .dubll-part{
@@ -956,7 +960,7 @@ padding-top: 15px;
 } 
 .card-disct{
     font-size: 20px;
-    color: red;
+    
 } 
 .card-mb-mb{
     display: none;
@@ -1219,15 +1223,15 @@ background: #000;
         font-size: 18px;
     }
     .card-disct {
-        font-size: 13px;
+        font-size: 13px; 
     }
     .show-coupon {
         width: 80px;
        
     }
     .oper-cord {
-        width: 121px;
-        height: 47px;
+        width: 123px;
+        height: 51px;
 
     }
     .copne-cod {
@@ -1694,6 +1698,7 @@ img.img-fluid.sinstore-logo {
 } 
 .home-card-dif{
     align-items: center;
+    padding: 5px;
 } 
 .store-sun-hading {
     font-size: 22px;
@@ -1725,6 +1730,11 @@ img.logoopo.rounded-circle {
     font-size: 18px;
     color: white; 
     font-weight: 700;
+} 
+.hnjki{
+    padding-left: 0 !important; 
+    padding-right: 0 !important; 
+    margin-top: 10px;
 }
 }
 @media (max-width: 480px){
@@ -1742,7 +1752,10 @@ img.logoopo.rounded-circle {
         font-size: 16px;
         font-weight: 700;
         border-radius: 0px;
-    }
+    } 
+    .janio{
+        padding: 0px 10px 0px 10px !important;
+    } 
    
 }
 
